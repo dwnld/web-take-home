@@ -4,7 +4,7 @@ const uuid = require('uuid')
 const app = express()
 
 app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/assets/index.html')
+  res.sendFile(__dirname + '/assets/index.html')
 })
 
 app.use('/assets', express.static(__dirname + '/assets'))
