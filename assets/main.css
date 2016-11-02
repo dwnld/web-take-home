@@ -1,0 +1,43 @@
+
+.message-list {
+  width:35%;
+  float:left;
+}
+
+.message-list ul {
+  padding:0px;
+  margin:0;
+  border: groove;
+  border-color: lightslategrey;
+}
+
+.message-list li {
+  /* height:25px; */
+  list-style:none;
+  border-bottom:groove;
+  border-color: lightslategrey;
+}
+
+.message-list li:hover {
+  background-color: lightgray;
+}
+
+.message-list h4 {
+  margin:0;
+  margin-left:5px;
+  padding: 10px 0 10px 0;
+}
+
+.message-current {
+  width:65%;
+  background-color:inherit;
+  float:right;
+}
+
+.message-current h3 {
+  margin-left: 20px;
+}
+
+.message-current p {
+  margin: 20px 20px 0px 20px;
+}
