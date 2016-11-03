@@ -1,4 +1,4 @@
-# dwnld take-hom interview
+# dwnld take-home interview
 
 Hi! We are so glad that you've decided to take on this interview with us. Here are the steps to get started.
 
