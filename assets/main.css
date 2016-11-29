@@ -1,0 +1,87 @@
+.message-page {
+	font-family: Helvetica;
+	font-size: 100%;
+}
+.title {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+.body {
+	display: flex;
+	margin-top: 10px;
+}
+.mobile-body{
+}
+.message-list {
+	width: 30%;
+	max-width: 220px;
+	font-size: 1em;
+}
+.mobile-body > .message-list {
+	width: 100%;
+	margin-top: 20px;
+	max-width: initial;
+}
+.message-list-item-active {
+	padding: 10px;
+	border: solid 1px white;
+	background-color: #b8c4ff;
+	cursor: pointer;
+}
+.message-list-item {
+	padding: 10px;
+	border: solid 1px white;
+	background-color: #eaeaea;
+	cursor: pointer;
+}
+.message-list-item:hover {
+	background-color: #cecece;
+}
+.message-list-loader {
+	margin-top: 20px;
+	font-size: 0.8em;
+	padding: 5px;
+}
+.reload-btn {
+	cursor: pointer;
+	border: solid 1px gray;
+	border-radius: 2px;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0 ;
+}
+.reload-btn:hover {
+	background-color: #cecece;
+}
+.message {
+	padding: 10px;
+	border: solid 2px #dae1fb;
+	margin-left: 30px;
+	border-radius: 2px;
+	width: 70%;
+	max-width: 400px;
+}
+.mobile-body > .message {
+	width: 90%;
+	margin: 0;
+}
+.message-subject {
+	padding: 10px;
+	font-weight: 600;
+	background-color: #b8c4ff;
+}
+.message-body {
+	margin-top: 20px;
+	padding: 0 5px;
+}
+.back-btn {
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+	background-color: #d6d6d6;
+	cursor: pointer;
+}
